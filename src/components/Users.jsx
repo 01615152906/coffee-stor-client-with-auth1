@@ -26,7 +26,7 @@ const handleDelete = ( id ) =>{
 }).then((result) => {
   if (result.isConfirmed) {
 
-fetch(`http://localhost:3000/users/${id}`,{
+fetch(`https://coffee-store-server-beta-mocha.vercel.app/users/${id}`,{
   method: 'DELETE'
 })
 .then(res => res.json())

@@ -22,7 +22,7 @@ const singInInfo = {
 }
 // update last sign in to the database
 
-fetch('http://localhost:3000/users', {
+fetch('https://coffee-store-server-beta-mocha.vercel.app/users', {
     method: 'PATCH',
     headers: {
         'content-type': 'application/json'
